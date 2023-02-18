@@ -24,28 +24,27 @@
 				<div class="grupo">
 					<label for="ipt-nome">Nome:</label>
 					<input id="ipt-nome" name="nome" type="text" placeholder="digite o nome do seu paciente"
-						class="campo">
+						class="campo" required>
 				</div>
 				<div class="grupo">
 					<label for="ipt-peso">Peso:</label>
 					<input id="ipt-peso" name="peso" type="text" placeholder="digite o peso do seu paciente"
-						class="campo campo-medio">
+						class="campo campo-medio" required> 
 				</div>
 				<div class="grupo">
 					<label for="ipt-altura">Altura:</label>
 					<input id="ipt-altura" name="altura" type="text" placeholder="digite a altura do seu paciente"
-						class="campo campo-medio">
+						class="campo campo-medio" required>
 				</div>
 				<div class="grupo">
 					<label for="ipt-gordura">% de Gordura:</label>
 					<input id="ipt-gordura" name="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente"
-						class="campo campo-medio">
+						class="campo campo-medio" required>
 				</div>
 				<ul id="mensagens-erro">
 
 				</ul>
-				<button id="bt-adicionar" class="botao bto-principal">Adicionar</button>
-				<button id="bt-remover" class="botao bto-principal">Remover</button>
+				<button id="bt-adicionar" type="submit" class="botao bto-principal">Adicionar</button>
 			</form>
 			
 		</section>
@@ -105,7 +104,7 @@
 					</tr>
 				</tbody>
 				<span id="erro-ajax" class="invisivel">!!Não foi possivel buscar os pacientes!!</span>
-				<button id="buscar-pacientes" class="botao bto-principal">Buscar Pacientes</button>
+				<button id="buscar-pacientes" class="botao bto-principal">Importar Pacientes</button>
 			</table>
 
 		</section>
